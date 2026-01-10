@@ -17,7 +17,7 @@ return {
 		providers = {
 			openai = {
 				endpoint = "https://api.openai.com/v1",
-				model = "gpt-4.0-mini",
+				model = "gpt-4o-mini",
 				timeout = 30000,
 				extra_request_body = {
 					temperature = 0.7,
